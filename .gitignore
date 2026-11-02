@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.db
+.pytest_cache/
+.coverage
+.ruff_cache/
+
+.env.*
+!.env.example
+scalers/
+*.keras

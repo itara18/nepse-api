@@ -1,0 +1,16 @@
+CONCLUSION
+============================================================
+Skill > 0 means the model beat 'tomorrow = today' on RMSE.
+
+NABIL: best model Linear Regression, mean skill -5.3%, beat naive in 0/5 folds.
+NICA: best model Linear Regression, mean skill -3.4%, beat naive in 1/5 folds.
+GBIME: best model Linear Regression, mean skill -1.9%, beat naive in 1/5 folds.
+SCB: best model Linear Regression, mean skill -1.9%, beat naive in 2/5 folds.
+SHIVM: best model Linear Regression, mean skill -4.4%, beat naive in 1/5 folds.
+
+Model-stock pairs with positive mean skill: 0 of 15.
+Strategy beat buy-and-hold after costs on 0 of 5 stocks.
+Average net strategy return: -34.4% (no costs: +10.9%).
+
+Treat positive results with care: small samples, no slippage, no liquidity limits.
+Not financial advice.

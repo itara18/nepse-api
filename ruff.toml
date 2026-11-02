@@ -1,0 +1,7 @@
+extend-exclude = ["notebooks"]
+
+[lint]
+ignore = ["B008"]  # FastAPI uses Depends() in defaults by design
+
+[lint.per-file-ignores]
+"app/research.py" = ["ISC004", "E501"]
